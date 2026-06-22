@@ -95,7 +95,6 @@ SortingAlgorithmAnalyzer
 │   └── Execution Time Measurement
 │
 └── Main Application
-
 ---
 
 ## How It Works
