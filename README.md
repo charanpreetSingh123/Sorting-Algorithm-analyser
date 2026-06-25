@@ -252,5 +252,5 @@ Developed as part of a Java-based Data Structures and Algorithms learning projec
 ---
 
 <p align="center">
-  ⭐ If you found this project useful, consider giving it a star!
+  ⭐ If you found this project useful, consider giving it a star :)
 </p>
