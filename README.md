@@ -1,6 +1,27 @@
-# Sorting Algorithm Performance Analyzer
+📊 Sorting Algorithm Performance Analyzer
 
-## Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/GUI-Java%20Swing-blue?style=for-the-badge" alt="Swing">
+  <img src="https://img.shields.io/badge/Algorithms-Sorting-green?style=for-the-badge" alt="Algorithms">
+  <img src="https://img.shields.io/badge/Project-DSA-purple?style=for-the-badge" alt="DSA">
+</p>
+<p align="center">
+  <b>Interactive Java Swing Application for Analyzing Sorting Algorithm Performance</b>
+</p>
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-sorting-algorithms">Algorithms</a> •
+  <a href="#-technologies-used">Tech Stack</a> •
+  <a href="#-project-structure">Structure</a> •
+  <a href="#-future-enhancements">Future Plans</a> •
+  <a href="#-author">Author</a>
+</p>
+
+⸻
+
+📌 Overview
 
 Sorting Algorithm Performance Analyzer is a Java Swing desktop application designed to compare the performance of different sorting algorithms on randomly generated datasets.
 
@@ -8,73 +29,115 @@ The application provides an interactive graphical user interface (GUI) where use
 
 This project serves as the initial prototype for a larger optimization system that will eventually be extended into a Seating Arrangement and Slot Allocation Management System. The future version will utilize sorting and allocation techniques to efficiently organize seating plans, allocate resources, manage records, and maintain ordered data structures.
 
----
+⸻
 
-## Features
+✨ Features
 
-Array Generation
+🎲 Array Generation
 
-* Generate random arrays of different sizes.
-* Supported sizes:
-    * 10 elements
-    * 20 elements
-    * 50 elements
-    * 100 elements
+Generate random arrays of different sizes:
 
-Sorting Algorithms Implemented
+* 10 Elements
+* 20 Elements
+* 50 Elements
+* 100 Elements
 
-## Bubble Sort
+🖥 Interactive GUI
 
-* Compares adjacent elements.
-* Swaps elements when required.
-* Includes optimization using a swap flag.
+* Dark-themed user interface
+* Responsive buttons
+* Hover effects
+* Rich text output formatting
+* Scrollable output panel
 
-## Insertion Sort
+⏱ Performance Measurement
 
-* Builds a sorted portion of the array incrementally.
-* Efficient for small datasets.
+* Execution time measurement using System.nanoTime()
+* Nanosecond-level precision
+* Sorting performance comparison
+* Instant result visualization
 
-## Selection Sort
+⸻
 
-* Repeatedly finds the minimum element.
-* Places it in its correct position.
+🔄 Sorting Algorithms
 
-## Java Arrays.sort()
+🔵 Bubble Sort
 
-* Uses Java’s built-in optimized sorting implementation.
-* Serves as a benchmark for comparison.
+* Compares adjacent elements
+* Swaps elements when necessary
+* Optimized using a swap flag
 
-## Performance Measurement
+🟢 Insertion Sort
 
-* Calculates execution time using:
+* Builds a sorted portion incrementally
+* Efficient for smaller datasets
 
-System.nanoTime()
+🟡 Selection Sort
 
-* Displays sorting duration in nanoseconds.
+* Repeatedly finds the minimum element
+* Places elements in their correct position
 
-## Interactive GUI
+⚡ Java Arrays.sort()
 
-* Dark-themed user interface.
-* Responsive buttons.
-* Hover effects.
-* Rich text output with color formatting.
-* Scrollable output panel.
+* Java’s built-in optimized sorting algorithm
+* Used as a benchmark for comparison
 
----
+⸻
 
-## Technologies Used
+⚙️ How It Works
 
-* Java
-* Java Swing
-* AWT
-* Arrays Utility Class
-* Object-Oriented Programming Concepts
+Step 1
 
----
+Select the desired array size from the dropdown menu.
 
-## Project Structure
+Step 2
 
-SortingAlgorithmAnalyzer
+Click Generate Array to create a random dataset.
+
+Step 3
+
+Choose a sorting algorithm:
+
+* Bubble Sort
+* Insertion Sort
+* Selection Sort
+* Arrays.sort()
+
+Step 4
+
+Analyze:
+
+* Sorted Output
+* Execution Time
+* Algorithm Performance
+
+⸻
+
+📸 Sample Output
+
+Generated Array (Size: 20)
+[34, 12, 76, 8, 45, 23, 67, 10]
+Bubble Sort Time: 19200 ns
+Sorted Array:
+[8, 10, 12, 23, 34, 45, 67, 76]
+
+⸻
+
+🛠 Technologies Used
+
+Category	Technology
+Programming Language	Java
+GUI Framework	Java Swing
+User Interface	AWT & Swing Components
+Utility Classes	Arrays Utility Class
+Concepts	OOP & DSA
+IDE	IntelliJ IDEA / Eclipse / NetBeans
+
+⸻
+
+📂 Project Structure
+
+SortingAlgorithmAnalyzer/
 │
 ├── GUI Components
 │   ├── JFrame
@@ -95,48 +158,10 @@ SortingAlgorithmAnalyzer
 │   └── Execution Time Measurement
 │
 └── Main Application
----
 
-## How It Works
+⸻
 
-Step 1
-
-Select the desired array size from the dropdown menu.
-
-Step 2
-
-Click Generate Array to create a random dataset.
-
-Step 3
-
-Choose any sorting algorithm:
-
-* Bubble Sort
-* Insertion Sort
-* Selection Sort
-* Java Arrays.sort()
-
-Step 4
-
-## View:
-
-* Sorted output
-* Execution time
-* Algorithm performance
-
----
-
-## Sample Output
-
-Generated Array (Size: 20)
-[34, 12, 76, 8, 45, 23, 67, 10]
-Bubble Sort Time: 19200 ns
-Sorted Array:
-[8, 10, 12, 23, 34, 45, 67, 76]
-
----
-
-## Learning Objectives
+🎯 Learning Objectives
 
 This project demonstrates:
 
@@ -148,36 +173,32 @@ This project demonstrates:
 * Performance Measurement
 * Object-Oriented Design
 
----
+⸻
 
-## Future Enhancements
+🚀 Future Enhancements
 
-This project is being developed as the foundation for a larger management and allocation system.
-
-Planned Features
-
-Seating Arrangement System
+🪑 Seating Arrangement System
 
 * Automatic seat allocation
 * Hall and classroom management
 * Exam seating arrangement generation
 * Conflict-free seat assignment
 
-Slot Allocation System
+🎟 Slot Allocation System
 
 * Parking slot allocation
 * Event seat reservation
 * Resource scheduling
 * Dynamic allocation strategies
 
-Record Management
+📋 Record Management
 
 * Student records
 * Visitor records
 * Booking records
 * Allocation history tracking
 
-Advanced Algorithms
+⚡ Advanced Algorithms
 
 * Merge Sort
 * Quick Sort
@@ -185,21 +206,21 @@ Advanced Algorithms
 * Counting Sort
 * Searching Algorithms
 
-Data Storage
+🗄 Database Integration
 
 * MySQL Database Integration
 * Record Persistence
 * CRUD Operations
 
-Data Visualization
+📊 Data Visualization
 
 * Sorting comparison graphs
 * Performance dashboards
 * Allocation statistics
 
----
+⸻
 
-## Future Vision
+🌟 Future Vision
 
 The long-term goal of this project is to transform it from a sorting performance analyzer into a complete Seating Arrangement and Slot Allocation Management Platform capable of:
 
@@ -209,10 +230,16 @@ The long-term goal of this project is to transform it from a sorting performance
 * Optimizing resource utilization
 * Supporting real-world institutional and organizational requirements
 
----
+⸻
 
-## Author
-## Charanpreet Singh
+👨‍💻 Author
 
+Charanpreet Singh
 
 Developed as part of a Java-based Data Structures and Algorithms learning project with future expansion toward intelligent allocation and management systems.
+
+⸻
+
+<p align="center">
+  ⭐ If you found this project useful, consider giving it a star!
+</p>
